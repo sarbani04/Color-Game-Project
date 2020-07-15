@@ -1,0 +1,30 @@
+
+//var pickedColor = colors[3];
+
+var colorDisp = document.getElementById("colorDisp");
+// colorDisp.textContent = pickedColor;
+
+for(i=0; i< squares.length; i++){
+    //add initial colors to sqr
+    squares[i].style.backgroundColor = colors[i];
+
+    // //add clicl listners to square
+    // squares[i].addEventListner("click", function(){
+    //    //grab a color amongst the sqrs
+    //    var clickedColor = this.style.backgroundColor;
+    //    // match it with pickedclr
+    // //    if (clickedColor === pickedColor) 
+    // //    {
+    // //    alert("Correct")    
+    // //    } else{
+    // //        alert("wrong")
+    // //    }
+    }); 
+}
+
+"rgb(255, 0, 0)",
+    "rgb(255, 255, 0)",
+    "rgb(0, 255, 0)",
+    "rgb(0, 255, 255)",
+    "rgb(0, 0, 255)",
+    "rgb(255, 0, 255)"
